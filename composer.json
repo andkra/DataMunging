@@ -1,0 +1,19 @@
+{
+    "name": "andkra/data-munging",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andreas",
+            "email": "andreas.kralik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DataMunging\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    }
+}
